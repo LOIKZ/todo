@@ -1,0 +1,47 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.memo-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+.memo-container input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.memo-container button {
+  padding: 10px 20px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.memo-board {
+  display: flex;
+  gap: 20px;
+}
+.memo-board h2 {
+  margin-top: 0;
+}
+.memo-board ul {
+  list-style: none;
+  padding: 0;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.memo-board li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
